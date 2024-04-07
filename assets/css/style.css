@@ -1,3 +1,8 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
 body {
   font-family: Raleway, sans-serif;
   background-color: #f1f1f1;
@@ -13,6 +18,15 @@ h1 {
   font-weight: 600;
 }
 
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap; /*не переносить на наступний рядок*/
+  overflow: hidden; /*прячет текст который не влазит*/
+  text-overflow: ellipsis; /*вместо спрятанного текста ставит троеточие*/
+}
+
 .sub-main-title {
   font-size: 15px;
 }
@@ -20,4 +34,35 @@ h1 {
 .black-sub-main-title {
   background-color: #000;
   color: #f1f1f1;
+}
+
+.nature-article {
+  background-color: white;
+  padding: 15px;
+}
+
+.article-title-desc {
+  font-size: 18px;
+}
+
+.article-time {
+  color: gray;
+}
+
+.article-main-info {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.read-more-link {
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid gray;
+  text-decoration: none;
+  color: inherit;
+  padding: 10px 20px;
+}
+
+.article-comments {
+  text-align: right;
 }
