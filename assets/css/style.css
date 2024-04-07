@@ -1,11 +1,23 @@
-p {
-  color: red;
+body {
+  font-family: Raleway, sans-serif;
+  background-color: #f1f1f1;
 }
 
-.sub-head {
-  color: green;
+header {
+  text-align: center;
 }
 
-.best-h2 {
-  color: blueviolet;
+h1 {
+  text-transform: uppercase;
+  font-size: 36px; /* em, rem*/
+  font-weight: 600;
+}
+
+.sub-main-title {
+  font-size: 15px;
+}
+
+.black-sub-main-title {
+  background-color: #000;
+  color: #f1f1f1;
 }
